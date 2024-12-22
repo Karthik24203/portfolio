@@ -13,14 +13,22 @@ function Stacks() {
           <h2 className="text-center text-gray-500 text-2xl md:text-3xl font-semibold font-silkscreen">
             Current
           </h2>
-          <img src="./src/assets/stack.jpg" className=" h-[350px] md:h-[450px]" alt="" />
+          <img
+            src="./src/assets/stack.jpg"
+            className=" h-[350px] md:h-[450px]"
+            alt="stack"
+          />
         </div>
 
         <div className="flex flex-col items-center justify-center">
           <h2 className="text-center text-gray-500 text-2xl md:mt-0 mt-4 md:text-3xl font-semibold font-silkscreen">
             Upgrading to
           </h2>
-          <img src="./src/assets/stack2.jpg" className="h-[350px] md:h-[450px]" alt="" />
+          <img
+            src="./src/assets/stack2.jpg"
+            className="h-[350px] md:h-[450px]"
+            alt="stack"
+          />
         </div>
       </div>
     </div>

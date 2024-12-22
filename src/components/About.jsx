@@ -10,7 +10,11 @@ const About = () => {
 
         <div className="flex flex-col md:flex-row justify-center items-center mt-5 md:mt-10">
           <div className="md:w-72 md:h-72 w-52 h-52 rounded-full overflow-hidden">
-            <img src={newt} alt="newt" className="w-full h-full object-cover" />
+            <img
+              src="./src/assets/newt-t.jpg"
+              alt="newt"
+              className="w-full h-full object-cover"
+            />
           </div>
 
           <div className="flex flex-col md:ml-12 w-96">
