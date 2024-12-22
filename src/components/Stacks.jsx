@@ -1,5 +1,7 @@
 import { DotIcon } from "lucide-react";
 import React from "react";
+import stack from "../assets/stack.jpg";
+import stack2 from "../assets/stack2.jpg";
 
 function Stacks() {
   return (
@@ -13,22 +15,14 @@ function Stacks() {
           <h2 className="text-center text-gray-500 text-2xl md:text-3xl font-semibold font-silkscreen">
             Current
           </h2>
-          <img
-            src="./src/assets/stack.jpg"
-            className=" h-[350px] md:h-[450px]"
-            alt="stack"
-          />
+          <img src={stack} className=" h-[350px] md:h-[450px]" alt="stack" />
         </div>
 
         <div className="flex flex-col items-center justify-center">
           <h2 className="text-center text-gray-500 text-2xl md:mt-0 mt-4 md:text-3xl font-semibold font-silkscreen">
             Upgrading to
           </h2>
-          <img
-            src="./src/assets/stack2.jpg"
-            className="h-[350px] md:h-[450px]"
-            alt="stack"
-          />
+          <img src={stack2} className="h-[350px] md:h-[450px]" alt="stack" />
         </div>
       </div>
     </div>
