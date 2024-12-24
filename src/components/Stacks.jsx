@@ -1,4 +1,3 @@
-import { DotIcon } from "lucide-react";
 import React from "react";
 import stack from "../assets/stack.jpg";
 import stack2 from "../assets/stack2.jpg";

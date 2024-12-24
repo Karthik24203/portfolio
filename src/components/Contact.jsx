@@ -21,7 +21,8 @@ function Contact() {
           <FaLinkedin className=" mr-2 " />
           LinkedIn
         </a>
-        <a className=" flex items-center md:mt-0 mt-2 md:mr-16" href="">
+        <a className=" flex items-center
+         md:mt-0 mt-2 md:mr-16" href="">
           {" "}
           <FaGithub className=" mr-2 " />
           GitHub

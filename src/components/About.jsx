@@ -17,7 +17,7 @@ const About = () => {
             <h1 className="text-3xl text-center md:text-left font-bold font-BeVietnamPro">
               Karthik V
             </h1>
-            <p className="mt-4 text-center md:text-xl md:text-left">
+            <p className="mt-4 p-5 text-center md:text-xl md:text-left">
               Hi, I'm Karthik, a Full Stack Developer currently in my 4th year
               of engineering at Malnad College of Engineering. I'm passionate
               about building web applications and enjoy working on both
