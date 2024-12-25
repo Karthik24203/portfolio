@@ -86,7 +86,7 @@ const Carousel = () => {
                 }
                 target={slide.id == "dp" ? "_blank" : ""}
               >
-                <button className="bg-black text-white mt-auto btn glass hover:text-black">
+                <button className="bg-black text-white mt-auto btn glass active:text-white hover:text-black">
                   {slide.id == "dp" ? "Visit" : "More"}
                 </button>
               </Link>

@@ -70,7 +70,7 @@ function Header() {
             <button
               key={index}
               className="font-semibold text-black bg-black/0 rounded-xl px-10 py-3 bg-none
-               bg-opacity-0 hover:bg-gray-200 font-BeVietnamPro text-xl"
+               bg-opacity-0 hover:bg-gray-200 active:text-white active:bg-slate-400 font-BeVietnamPro text-xl"
               onClick={() => navigateToSection(item.id)}
             >
               {item.name}
@@ -98,7 +98,7 @@ function Header() {
               <button
                 key={index}
                 className="text-end font-semibold text-black bg-black/0 rounded-xl px-5 py-2 bg-none
-                 bg-opacity-0 hover:bg-gray-200 font-BeVietnamPro w-full"
+                 bg-opacity-0 hover:bg-gray-200 active:text-white font-BeVietnamPro w-full"
                 onClick={() => navigateToSection(item.id)}
               >
                 {item.name}
