@@ -16,13 +16,11 @@ import Link from "next/link";
 function Docs() {
   const { title } = useParams();
   const project = projectData[title];
-  console.log("title", title);
-  console.log(project);
 
   return (
     <div>
       <div className="flex justify-center flex-col items-center">
-        <h2 className="font-BeVietnamPro flex flex-row text-3xl justify-center items-center  font-semibold text-center mt-8">
+        <h2 className="font-BeVietnamPro flex flex-row text-3xl justify-center items-center font-semibold text-center mt-8">
           {project?.title}
           <span>
             {project?.visit ? (
