@@ -23,7 +23,7 @@ const Carousel = () => {
       setVisibleSlides(1.9);
     } else if (window.innerWidth < 470) {
       setVisibleSlides(1.7);
-    }  else if (window.innerWidth < 700) {
+    } else if (window.innerWidth < 700) {
       setVisibleSlides(1.5);
     } else if (window.innerWidth < 956) {
       setVisibleSlides(2);
@@ -52,27 +52,6 @@ const Carousel = () => {
 
   return (
     <div className="relative overflow-hidden w-full mt-6 ">
-      <div className="  w-fit gap-5 flex md:justify-between mb-6">
-        <button
-          onClick={prevSlide}
-          className={`  text-black bg-gray-200 p-2 rounded-full transition-all ${
-            currentIndex === 0 ? " opacity-40 " : ""
-          }`}
-          disabled={currentIndex === 0}
-        >
-          <IoIosArrowBack className=" text-2xl" />
-        </button>
-
-        <button
-          onClick={nextSlide}
-          className={` text-black bg-gray-200 p-2 rounded-full transition-all ${
-            currentIndex + visibleSlides >= slides.length ? " opacity-40" : ""
-          }`}
-          disabled={currentIndex + visibleSlides >= slides.length}
-        >
-          <IoIosArrowForward className=" text-2xl" />
-        </button>
-      </div>
       <div
         className="flex transition-transform ease-in-out duration-300"
         style={{
@@ -114,6 +93,27 @@ const Carousel = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div className=" mt-2 w-fit gap-5 flex md:justify-between self-end ">
+        <button
+          onClick={prevSlide}
+          className={`  text-black bg-gray-200 p-2 rounded-full transition-all ${
+            currentIndex === 0 ? " opacity-40 " : ""
+          }`}
+          disabled={currentIndex === 0}
+        >
+          <IoIosArrowBack className=" text-2xl" />
+        </button>
+
+        <button
+          onClick={nextSlide}
+          className={` text-black bg-gray-200 p-2 rounded-full transition-all ${
+            currentIndex + visibleSlides >= slides.length ? " opacity-40" : ""
+          }`}
+          disabled={currentIndex + visibleSlides >= slides.length}
+        >
+          <IoIosArrowForward className=" text-2xl" />
+        </button>
       </div>
     </div>
   );
