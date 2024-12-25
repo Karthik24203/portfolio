@@ -53,6 +53,7 @@ export default {
       animation: {
         "infinite-scroll": "infinite-scroll 100s linear infinite",
         "infinite-scroll-1": "infinite-scroll 60s linear infinite",
+        "infinite-scroll-2": "infinite-scroll 120s linear infinite",
       },
       keyframes: {
         "infinite-scroll": {

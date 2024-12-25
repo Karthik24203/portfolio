@@ -14,7 +14,7 @@ function Hero() {
     <>
       <div className=" bg-black flex flex-col justify-between items-center w-full h-[120px] md:h-[200px]">
         <div className="overflow-hidden w-full relative">
-          <ul className="flex w-[200%] animate-infinite-scroll whitespace-nowrap">
+          <ul className="flex w-[200%] animate-infinite-scroll-2 whitespace-nowrap">
             {infiniteFs.map((fss, index) => (
               <li
                 key={index}

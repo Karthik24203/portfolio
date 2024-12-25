@@ -56,6 +56,7 @@ function Header() {
        justify-between px-5 md:px-2 md:justify-evenly w-full py-1"
       >
         <div
+          onClick={() => navigateToSection("hero")}
           className="font-silkscreen rounded-full py-1 md:py-3 px-2 h-10 md:h-auto md:p-2 md:px-3
          bg-white/80 md:text-3xl border-2 border-black cursor-pointer"
         >

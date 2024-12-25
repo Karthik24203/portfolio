@@ -14,20 +14,25 @@ function Contact() {
       rounded-lg border-4 border-black "
       >
         <a
-          className=" flex items-center md:mt-0 mt-2 md:mr-16"
-          href="karthik24203@gmail.com "
+          className=" hover:text-blue-400 hover:scale-105 transition-all flex items-center md:mt-0 mt-2 md:mr-16"
+          href="mailto:karthik24203@gmail.com"
         >
           <IoMdMail className=" mr-2 " />
           karthik24203@gmail.com
         </a>
-        <a className=" flex items-center md:mt-0 mt-2 md:mr-16" href="">
+        <a
+          className=" hover:text-blue-400 hover:scale-105 transition-all flex items-center md:mt-0 mt-2 md:mr-16"
+          href="https://www.linkedin.com/in/karthik-v-8b83a8229/"
+          target="_blank"
+        >
           <FaLinkedin className=" mr-2 " />
           LinkedIn
         </a>
         <a
-          className=" flex items-center
+          className=" hover:text-blue-400 hover:scale-105 transition-all flex items-center
          md:mt-0 mt-2 md:mr-16"
-          href=""
+          href="https://github.com/Karthik24203"
+          target="_blank"
         >
           {" "}
           <FaGithub className=" mr-2 " />
