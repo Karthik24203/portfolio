@@ -1,4 +1,3 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Be_Vietnam_Pro } from "next/font/google";
 

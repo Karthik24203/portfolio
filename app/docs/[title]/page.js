@@ -32,7 +32,7 @@ function Docs() {
             )}
           </span>
         </h2>
-        <p className="font-BeVietnamPro text-lg md:text-xl text-center w-2/3 text-gray-500 mt-5">
+        <p className="font-BeVietnamPro text-lg md:text-xl text-center w-5/6 md:w-2/3 text-gray-500 mt-5">
           {project?.description1}
         </p>
 
