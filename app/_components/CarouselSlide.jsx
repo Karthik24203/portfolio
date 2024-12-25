@@ -51,7 +51,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="relative overflow-hidden w-full mt-6 ">
+    <div className="relative overflow-hidden w-full mt-6 font-BeVietnamPro">
       <div
         className="flex transition-transform ease-in-out duration-300"
         style={{

@@ -45,7 +45,9 @@ const Skills = () => {
                     <p className="font-semibold text-md md:text-lg font-BeVietnamPro">
                       {item.skill}
                     </p>
-                    <p className="text-gray-500">{item.level}</p>
+                    <p className="text-gray-500 font-BeVietnamPro">
+                      {item.level}
+                    </p>
                   </div>
                 </div>
               ))}
@@ -67,7 +69,9 @@ const Skills = () => {
                     <p className="font-semibold text-md md:text-lg font-BeVietnamPro">
                       {item.skill}
                     </p>
-                    <p className="text-gray-500">{item.level}</p>
+                    <p className="text-gray-500 font-BeVietnamPro">
+                      {item.level}
+                    </p>
                   </div>
                 </div>
               ))}
@@ -89,7 +93,9 @@ const Skills = () => {
                     <p className="font-semibold text-md md:text-lg font-BeVietnamPro">
                       {item.skill}
                     </p>
-                    <p className="text-gray-500">{item.level}</p>
+                    <p className="text-gray-500 font-BeVietnamPro">
+                      {item.level}
+                    </p>
                   </div>
                 </div>
               </div>

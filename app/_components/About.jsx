@@ -20,11 +20,11 @@ const About = () => {
             />
           </div>
 
-          <div className="flex flex-col md:ml-12 w-96">
-            <h1 className="text-3xl text-center md:text-left font-bold font-BeVietnamPro">
+          <div className="flex flex-col md:ml-12 w-96 font-BeVietnamPro">
+            <h1 className="text-3xl text-center md:text-left font-bold font-BeVietnamPro mt-2">
               Karthik V
             </h1>
-            <p className="mt-4 p-5 text-center md:text-xl md:text-left">
+            <p className="mt-2 p-2 text-center md:text-xl md:text-left">
               Hi, I'm Karthik, a Full Stack Developer currently in my 4th year
               of engineering at Malnad College of Engineering. I'm passionate
               about building web applications and enjoy working on both
