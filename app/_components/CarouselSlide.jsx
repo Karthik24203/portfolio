@@ -19,9 +19,11 @@ const Carousel = () => {
   );
 
   const updateVisibleSlides = useCallback(() => {
-    if (window.innerWidth < 470) {
+    if (window.innerWidth < 420) {
+      setVisibleSlides(1.9);
+    } else if (window.innerWidth < 470) {
       setVisibleSlides(1.7);
-    } else if (window.innerWidth < 700) {
+    }  else if (window.innerWidth < 700) {
       setVisibleSlides(1.5);
     } else if (window.innerWidth < 956) {
       setVisibleSlides(2);
