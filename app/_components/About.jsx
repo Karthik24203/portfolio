@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { LiaCertificateSolid } from "react-icons/lia";
 const About = () => {
   return (
     <div>
@@ -16,11 +17,11 @@ const About = () => {
               width={500}
               height={500}
               alt="profile"
-              className=" w-full h-full object-cover grayscale"
+              className=" w-full h-full object-cover grayscale "
             />
           </div>
 
-          <div className="flex flex-col md:ml-12 w-96 font-BeVietnamPro">
+          <div className="flex flex-col md:ml-12 w-96 lg:w-[500px] font-BeVietnamPro">
             <h1 className="text-3xl text-center md:text-left font-bold font-BeVietnamPro mt-2">
               Karthik V
             </h1>
@@ -31,6 +32,23 @@ const About = () => {
               front-end and back-end development to create seamless user
               experiences.
             </p>
+            <div className=" mt-1">
+              <h2 className=" text-2xl font-semibold flex gap-3 items-center">
+                Experience <LiaCertificateSolid size={30} className="" />
+              </h2>
+              <div className=" border-black px-5 pb-5 pt-3 rounded-lg border-2">
+                <h3 className=" font-semibold text-xl">Intern</h3>
+                <p className=" font-semibold">
+                  Master Control Facility, ISRO,Hassan
+                </p>
+                <p>
+                  I landed the role as intern to develop a web dev software to
+                  analyze satellite readings related to its position and orbit
+                  and generate an alert if any major fluctuations in the
+                  readings .
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
