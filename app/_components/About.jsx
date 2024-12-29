@@ -12,11 +12,11 @@ const About = () => {
           <div className="md:w-72 md:h-72 w-52 h-52 rounded-full overflow-hidden">
             {/* <img src={newt} alt="newt" className="w-full h-full object-cover" /> */}
             <Image
-              src={"/newt-t.jpg"}
+              src={"/prof.jpg"}
               width={500}
               height={500}
               alt="profile"
-              className=" w-full h-full object-cover"
+              className=" w-full h-full object-cover grayscale"
             />
           </div>
 

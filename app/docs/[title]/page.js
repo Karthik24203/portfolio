@@ -25,7 +25,7 @@ function Docs() {
           <span>
             {project?.visit ? (
               <Link target="_blank" href={project.visit}>
-                <SquareArrowOutUpRight className=" ml-3 hover:text-blue-500" />
+                <SquareArrowOutUpRight className=" ml-3 mr-3  hover:text-blue-500" />
               </Link>
             ) : (
               ""
