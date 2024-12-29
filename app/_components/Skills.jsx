@@ -32,8 +32,11 @@ const Skills = () => {
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-16 mt-8">
         {/* Frontend Development */}
-        <div className="flex flex-col items-center border-black border-2 rounded-3xl p-4">
-          <h2 className=" text-xl md:text-[1.6rem] font-bold text-center font-BeVietnamPro">
+        <div
+          className="flex flex-col items-center border-black border-2 rounded-3xl p-4 shadow-[5px_5px_0px_black] 
+        hover:shadow-[1px_1px_0px_black] transition-shadow "
+        >
+          <h2 className="text-xl md:text-[1.6rem] font-bold text-center font-BeVietnamPro">
             Frontend Development
           </h2>
           <div className="flex justify-center w-full mt-3 py-5">
@@ -56,7 +59,11 @@ const Skills = () => {
         </div>
 
         {/* Backend Development */}
-        <div className="flex flex-col mt-5 md:mt-0 items-center border-black border-2 rounded-3xl p-4">
+        <div
+          className="flex flex-col mt-5 md:mt-0 items-center border-black border-2 rounded-3xl p-4 
+          shadow-[5px_5px_0px_black] 
+        hover:shadow-[1px_1px_0px_black] transition-shadow"
+        >
           <h2 className="text-xl md:text-[1.6rem] font-bold text-center font-BeVietnamPro">
             Backend Development
           </h2>
@@ -80,7 +87,11 @@ const Skills = () => {
         </div>
 
         {/* Software (Spans 2 columns) */}
-        <div className="flex flex-col items-center border-black border-2 rounded-3xl col-span-1 md:col-span-2 mt-5 p-4">
+        <div
+          className="flex flex-col items-center border-black border-2 rounded-3xl col-span-1 md:col-span-2 mt-5 p-4
+        shadow-[5px_5px_0px_black] 
+        hover:shadow-[1px_1px_0px_black] transition-shadow"
+        >
           <h2 className="text-xl md:text-[1.6rem] font-bold text-center font-BeVietnamPro">
             Software
           </h2>
