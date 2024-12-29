@@ -49,12 +49,12 @@ const About = () => {
               <h2 className=" text-2xl font-semibold flex gap-3 justify-center md:justify-start items-center">
                 Experience <LiaCertificateSolid size={30} className="" />
               </h2>
-              <div className=" border-black px-5 pb-5 mt-2 pt-3 rounded-lg border-2">
+              <div className=" border-black px-2 md:text-start w-72 md:w-auto  text-center md:px-5 pb-5 mt-2 pt-3 rounded-lg border-2">
                 <h3 className=" font-semibold text-xl">Intern</h3>
                 <p className=" font-semibold">
                   Master Control Facility, ISRO,Hassan
                 </p>
-                <p className=" md:text-lg">
+                <p className=" text-sm md:text-lg">
                   I landed the role as intern to develop a web dev software to
                   analyze satellite readings related to its position and orbit
                   and generate an alert if any major fluctuations in the
