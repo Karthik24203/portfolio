@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import { LiaCertificateSolid } from "react-icons/lia";
+import { SquareArrowOutUpRight } from "lucide-react";
+import Link from "next/link";
 const About = () => {
   return (
     <div>
@@ -10,7 +12,7 @@ const About = () => {
         </h2>
 
         <div className="flex flex-col md:flex-row justify-center items-center mt-5 md:mt-10">
-          <div className="md:w-72 md:h-72 w-52 h-52 rounded-full overflow-hidden">
+          <div className="md:w-72 md:h-72 w-52 h-52 rounded-full overflow-hidden flex flex-col">
             {/* <img src={newt} alt="newt" className="w-full h-full object-cover" /> */}
             <Image
               src={"/prof.jpg"}
@@ -21,10 +23,21 @@ const About = () => {
             />
           </div>
 
-          <div className="flex flex-col md:ml-12 w-96 lg:w-[500px] font-BeVietnamPro">
+          <div className="flex flex-col items-center md:items-start  md:ml-12 w-96 lg:w-[500px] font-BeVietnamPro">
             <h1 className="text-3xl text-center md:text-left font-bold font-BeVietnamPro mt-2">
               Karthik V
             </h1>
+            <Link
+              target="_blank"
+              href={`https://drive.google.com/file/d/1ggxcs5W1dSBpu0lpm8yt1xNP-FWslfFh/view?usp=sharing`}
+            >
+              <button
+                className=" mt-2 btn bg-black text-white w-fit hover:text-black hover:border-2
+               hover:border-black"
+              >
+                Resume <SquareArrowOutUpRight />
+              </button>
+            </Link>
             <p className="mt-2 p-2 text-center md:text-xl md:text-left">
               Hi, I'm Karthik, a Full Stack Developer currently in my 4th year
               of engineering at Malnad College of Engineering. I'm passionate
