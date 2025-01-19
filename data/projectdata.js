@@ -28,6 +28,30 @@ const projectData = {
       { name: "Workspace", path: "/pdf-reader/4.jpg" },
     ],
   },
+  hfds: {
+    id: "hfds",
+    title: "Hospital Food Delivery Management System",
+    description:
+      "The Hospital Food Delivery Management System is a comprehensive web application designed to streamline hospital food operations for patients.",
+    description1:
+      "This system centralizes processes such as managing patient details, creating personalized diet charts for Morning, Evening, and Night, overseeing food preparation and delivery tasks, and tracking delivery statuses. It ensures efficient communication between hospital food managers, pantry staff, and delivery personnel while providing real-time updates and alerts for seamless operations.",
+    techStack: [
+      "Next.js (Full-Stack  Framework)",
+      "Drizzle ORM + NeonDB (Database)",
+      "Tailwind CSS (Styling)",
+    ],
+    images: [
+      {
+        name: "Hospital Food Manager Dashboard",
+        path: "/hdfs/hfds1.jpg",
+      },
+      { name: "Patient Detail Form", path: "/hdfs/hfds2.jpg" },
+      { name: "Food Prep and Assignment Form", path: "/hdfs/hfds3.jpg" },
+      { name: "Staff List", path: "/hdfs/hfds4.jpg" },
+      { name: "Inner Pantry Dashboard", path: "/hdfs/hfds5.jpg" },
+      { name: "Delivery Personnel Dashboard", path: "/hdfs/hfds6.jpg" },
+    ],
+  },
 
   wsa: {
     id: "wsa",
