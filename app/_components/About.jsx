@@ -51,9 +51,15 @@ const About = () => {
               </h2>
               <div className=" border-black px-2 md:text-start w-72 md:w-auto  text-center md:px-5 pb-5 mt-2 pt-3 rounded-lg border-2">
                 <h3 className=" font-semibold text-xl">Intern</h3>
+
                 <p className=" font-semibold">
                   Master Control Facility, ISRO,Hassan
                 </p>
+                <p className=" my-1">
+                  <span className=" font-semibold">Duration: </span>02-09-2024
+                  to 17-09-2024
+                </p>
+
                 <p className=" text-sm md:text-lg">
                   I landed the role as intern to develop a web dev software to
                   analyze satellite readings related to its position and orbit
