@@ -55,10 +55,7 @@ const About = () => {
                 <p className=" font-semibold">
                   Master Control Facility, ISRO,Hassan
                 </p>
-                <p className=" my-1">
-                  <span className=" font-semibold">Duration: </span>02-09-2024
-                  to 17-09-2024
-                </p>
+                <p className=" text-sm font-semibold">02/09/2024 - 17/09/2024</p>
 
                 <p className=" text-sm md:text-lg">
                   I landed the role as intern to develop a web dev software to
