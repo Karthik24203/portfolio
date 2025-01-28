@@ -15,7 +15,7 @@ const About = () => {
           <div className="md:w-72 md:h-72 w-52 h-52 rounded-full overflow-hidden flex flex-col">
             {/* <img src={newt} alt="newt" className="w-full h-full object-cover" /> */}
             <Image
-              src={"/prof.jpg"}
+              src={"/prof2.jpg"}
               width={500}
               height={500}
               alt="profile"
@@ -29,7 +29,7 @@ const About = () => {
             </h1>
             <Link
               target="_blank"
-              href={`https://drive.google.com/file/d/1ggxcs5W1dSBpu0lpm8yt1xNP-FWslfFh/view?usp=sharing`}
+              href={`https://drive.google.com/file/d/1jA498vw0xFKTCpa1MJju7wyzPnJXqQD-/view?usp=drive_link`}
             >
               <button
                 className=" mt-2 btn bg-black text-white w-fit hover:text-black hover:border-2

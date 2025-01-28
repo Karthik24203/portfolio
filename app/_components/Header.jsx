@@ -63,7 +63,7 @@ function Header() {
           K.
         </div>
         <div
-          className="hidden md:px-10 md:flex gap-2 items-center py-1 justify-between text-white bg-white/40 md:bg-white/30
+          className="hidden md:px-10 md:flex gap-2 items-center py-1 justify-between text-white bg-white/80 md:bg-white/80
           rounded-xl bg-opacity-0 backdrop-blur-md border-2 border-black"
         >
           {navbar.map((item, index) => (
